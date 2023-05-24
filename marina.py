@@ -226,11 +226,11 @@ def main(
     st.sidebar.info('Look what I can do!')
     
     
-    st.markdown("<h1 style='text-align: center; 'Our best moments </h1>", unsafe_allow_html = True)
+    st.markdown("<h1 style='text-align: center; 'Our best moments!!!' </h1>", unsafe_allow_html = True)
     #st.image('hi.jpg', width=400)
    
     
-    st_player("https://cloud.mail.ru/home/2023-05-24%2020.41.56.MP4")
+    st_player("https://youtu.be/yA-oNAAo-XI")
     
 
     
@@ -240,7 +240,7 @@ def main(
       
        
         st.snow()
-        st_player("https://soundcloud.com/search?q=you%20are%20not%20alone&query_urn=soundcloud%3Asearch-autocomplete%3A07a8dcbe6b294b40b191cd2501ad5e20")
+        st_player("https://soundcloud.com/mjimmortal/youarenotalone?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
         time.sleep(2.5)
         st.show()
         time.sleep(2.5)
