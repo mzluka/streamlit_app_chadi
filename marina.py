@@ -7,7 +7,7 @@ from streamlit_player import st_player
 
 
 rain(
-    emoji="💵",
+    emoji="😍",
     font_size=30,
     falling_speed=5,
     animation_length="infinite",
@@ -210,7 +210,7 @@ def main(
 
     #def example():
         #rain(
-            #emoji="💵",
+            #emoji="😍",
             #font_size=30,
             #falling_speed=5,
             #animation_length="infinite",
@@ -221,30 +221,30 @@ def main(
     
     
     
-    st.sidebar.title('Веб-приложение для Марины')
-    st.sidebar.image('hi.jpg')
-    st.sidebar.info('Фамилия разработчика слишком известная :)')
+    st.sidebar.title('Web-application from Marina')
+    st.sidebar.image('7.jpg')
+    st.sidebar.info('Look what I can do!')
     
     
-    st.markdown("<h1 style='text-align: center; '>Это Ваше первое приложение :).</h1>", unsafe_allow_html = True)
+    st.markdown("<h1 style='text-align: center; 'Our best moments </h1>", unsafe_allow_html = True)
     #st.image('hi.jpg', width=400)
    
     
-    st_player("https://www.youtube.com/watch?v=CCHdMIEGaaM")
+    st_player("https://cloud.mail.ru/home/2023-05-24%2020.41.56.MP4")
     
 
     
-    if st.button("Нажми кнопку! Там ешё пару сюрпризов."):
+    if st.button("Click here for surprise)"):
         
         
       
        
-        st.balloons()
-        st_player("https://soundcloud.com/ahmed-mano-5/eminem_im-not-afraid")
+        st.snow()
+        st_player("https://soundcloud.com/search?q=you%20are%20not%20alone&query_urn=soundcloud%3Asearch-autocomplete%3A07a8dcbe6b294b40b191cd2501ad5e20")
         time.sleep(2.5)
-        st.balloons()
+        st.show()
         time.sleep(2.5)
-        st.balloons()
+        st.snow()
        
 
 if __name__ == '__main__':
