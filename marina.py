@@ -226,7 +226,7 @@ def main(
     st.sidebar.info('Look what I can do!')
     
     
-    st.markdown("<h1 style='text-align: center; 'Our best moments!!!' </h1>", unsafe_allow_html = True)
+    st.markdown("<h1 style='text-align: center; '>OUR BEST MOMENTS!...</h1>", unsafe_allow_html = True)
     #st.image('hi.jpg', width=400)
    
     
